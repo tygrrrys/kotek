@@ -23,4 +23,13 @@ public class FizzBuzzDiv
 
 		return (numberToCheck%divsor==0) ? true : false;
 	}
+
+	public String printAccordingToDivisibility(int firstDiv, int secondDiv) {
+		
+			if(isDivisible(firstDiv)){
+				return isDivisible(secondDiv) ? "FizzBuzz" : "Fizz" ;
+			}
+		
+		return isDivisible(secondDiv) ? "Buzz" : "";
+	}
 }

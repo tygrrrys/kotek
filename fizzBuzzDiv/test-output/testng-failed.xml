@@ -5,7 +5,7 @@
     <classes>
       <class name="fizzBuzzDiff.AppTests">
         <methods>
-          <include name="fiveDoesntDivBy3"/>
+          <include name="testIfForFifteenGivesBuzzFizz"/>
         </methods>
       </class> <!-- fizzBuzzDiff.AppTests -->
     </classes>
