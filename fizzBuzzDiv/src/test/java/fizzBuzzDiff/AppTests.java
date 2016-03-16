@@ -90,12 +90,27 @@ public class AppTests {
 		//g
 		int five = 5;
 		int three = 3;
-		FizzBuzzDiv checkDivOfThree = new FizzBuzzDiv(15);
+		FizzBuzzDiv checkDivOfFifteen = new FizzBuzzDiv(15);
 		String result;
 		
 		// W
-		result = checkDivOfThree.printAccordingToDivisibility(three, five);
+		result = checkDivOfFifteen.printAccordingToDivisibility(three, five);
 		String expected = "FizzBuzz";
+		
+		//t
+		assertThat(result).isEqualTo(expected);
+	}
+	@Test
+	public void testIf17GivesNothing() {
+		//g
+		int five = 5;
+		int three = 3;
+		FizzBuzzDiv checkDivOfSeventeen = new FizzBuzzDiv(17);
+		String result;
+		
+		// W
+		result = checkDivOfSeventeen.printAccordingToDivisibility(three, five);
+		String expected = "";
 		
 		//t
 		assertThat(result).isEqualTo(expected);
