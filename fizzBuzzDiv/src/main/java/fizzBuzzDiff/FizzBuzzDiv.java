@@ -3,10 +3,7 @@ package fizzBuzzDiff;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 
-/**
- * Hello world!
- *
- */
+
 public class FizzBuzzDiv {
 	private int numberToCheck;
 	private static final int THREE = 3;
